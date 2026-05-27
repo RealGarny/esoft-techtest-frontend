@@ -1,0 +1,104 @@
+/* Типография */
+@utility h1 {
+  @apply font-normal md:text-[8rem] text-[6.75rem];
+}
+h1 {
+  @apply h1;
+}
+@utility h2 {
+  font-weight: 700;
+  @apply md:text-[2.125rem] sm:text-[1.7rem] text-[1.5rem];
+}
+h2 {
+  @apply h2;
+}
+@utility h3 {
+  @apply font-normal md:text-[1.5rem] sm:text-[1rem] text-[0.5rem];
+}
+@utility h3-bd {
+  @apply h3 font-bold;
+}
+h3 {
+  @apply h3;
+}
+
+@utility t18 {
+  @apply text-[1.125rem];
+}
+@utility t18-md {
+  @apply t18;
+  font-weight: 500;
+}
+@utility t18-bd {
+  @apply t18 font-bold;
+}
+@utility t16 {
+  @apply text-[1rem];
+}
+@utility t16-md {
+  @apply t16;
+  font-weight: 500;
+}
+@utility t16-bd {
+  @apply t16 font-bold;
+}
+
+@utility t15 {
+  @apply text-[0.9375rem];
+}
+
+@utility t14 {
+  @apply text-[0.875rem] font-normal;
+}
+@utility t14-md {
+  @apply t14 font-medium;
+}
+@utility t14-bd {
+  @apply t14 font-bold;
+}
+@utility t13 {
+  @apply font-normal text-[0.8125rem];
+}
+@utility t13-md {
+  @apply t13 font-medium;
+}
+@utility t13-bd {
+  @apply t13 font-bold;
+}
+@utility t12 {
+  @apply text-[0.75rem];
+}
+@utility t12-bd {
+  @apply t12 font-bold;
+}
+@utility t12-md {
+  @apply t12 font-medium;
+}
+@utility t11 {
+  @apply text-[0.6875rem];
+}
+@utility t11-md {
+  @apply t11 font-medium;
+}
+@utility t10 {
+  @apply text-[0.625rem];
+}
+
+@utility t10-md {
+  @apply t10 font-medium;
+}
+@utility t9 {
+  @apply text-[0.5625rem];
+}
+@utility t8 {
+  @apply text-[0.5rem];
+}
+
+@utility t8-md {
+  @apply t8 font-medium;
+}
+
+@utility t6-md {
+  @apply text-[6.5px];
+  font-weight: 500;
+}

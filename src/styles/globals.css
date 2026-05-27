@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import "./fonts.css";
+@import "./vars.css";
+@import "./typography.css";
+
+@import "../components/ui/Input/style.css";
+
+body {
+  @apply font-open-sans;
+}
+
+html {
+  @apply text-primaryText;
+}
